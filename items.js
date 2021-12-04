@@ -26,6 +26,8 @@ function dothis(e) {
     des.appendChild(document.createTextNode(desc.value))
     newnode.appendChild(des)
 
+    values.value = ''
+    desc.value = ''
 
 }
 //removing items
